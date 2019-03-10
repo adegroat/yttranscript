@@ -1,0 +1,25 @@
+body {
+    background: rgb(213,6,6);
+    background: radial-gradient(circle, rgba(213,6,6,1) 0%, rgba(199,50,50,1) 53%, rgba(147,0,0,1) 100%);
+    color: #ffffff;
+}
+
+input {
+    font-size: 1.5em;
+    margin: 3px 0;
+    width: 100%;
+}
+
+input[type=text] {
+    border: solid 1px #868686;
+    border-radius: 3px;
+    padding: 3px 0;
+}
+
+input[type=submit] {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: solid 1px #868686;
+    border-radius: 3px;
+    padding: 3px;
+}

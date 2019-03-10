@@ -1,8 +1,21 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.center {
+    text-align: center;
+}
+
+.top-buffer { margin-top: 50px; }
+.bottom-buffer { margin-top: 50px; }
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 8px;
+    margin: 0 auto;
 }

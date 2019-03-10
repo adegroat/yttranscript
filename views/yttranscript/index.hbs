@@ -1,0 +1,28 @@
+<link rel="stylesheet" type="text/css" href="stylesheets/yttranscript.css">
+
+<h1 class="center top-buffer bottom-buffer">YouTube Transcript Downloader</h1>
+
+<div class="container">
+  
+  <div>
+    {{#if error}}
+        <p>{{error}}</p>
+    {{/if}}
+  </div>
+
+  <form method="POST">
+    <input type="text" placeholder="Video URL" name="url" value="{{url}}">
+    <input type="submit" value="Download">
+  </form>
+
+  <div>
+    {{#if transcript}}
+      <h3>Transcript</h3>
+      <ul>
+        {{#transcript}}
+          <li>{{timestamp}} - {{text}}</li>
+        {{/transcript}}
+      </ul>
+    {{/if}}
+  </div>
+</div>
